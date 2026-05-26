@@ -1,18 +1,21 @@
-## Getting Started
+## SISTEMA DE GESTIÓN DE PRODUCTOS - TECHLAB
+Sistema de consola para administrar productos y pedidos de forma sencilla.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Funcionalidades principales
 
-## Folder Structure
+### Productos
 
-The workspace contains two folders by default, where:
+| Opción | Acción |
+|--------|--------|
+| `1` | **Agregar producto** — Registra un nuevo producto en el sistema |
+| `2` | **Listar productos** — Muestra todos los productos disponibles |
+| `3` | **Buscar producto por ID** — Encuentra un producto específico por su identificador |
+| `4` | **Actualizar producto** — Modifica los datos de un producto existente |
+| `5` | **Eliminar producto** — Elimina un producto del sistema |
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Pedidos
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+| Opción | Acción |
+|--------|--------|
+| `6` | **Crear un pedido** — Genera un nuevo pedido asociado a productos |
+| `7` | **Listar pedidos** — Muestra todos los pedidos registrados |
